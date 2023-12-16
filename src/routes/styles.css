@@ -1,0 +1,20 @@
+:root {
+    --persian-red-50: #fff1f2;
+    --persian-red-100: #ffe0e2;
+    --persian-red-200: #ffc6ca;
+    --persian-red-300: #ff9fa6;
+    --persian-red-400: #ff6772;
+    --persian-red-500: #fc3745;
+    --persian-red-600: #ea1827;
+    --persian-red-700: #d91220;
+    --persian-red-800: #a2121c;
+    --persian-red-900: #86161e;
+    --persian-red-950: #49060b;
+
+    --color-primario: var(--persian-red-700);  /* Cambiado a un tono más claro de persian-red */
+    --color-base: var(--persian-red-50);     /* Cambiado a un tono medio de persian-red */
+    --color-secundario: var(--persian-red-50); ; /* Cambiado a un tono oscuro de persian-red */
+    --color-terciario: var(--persian-red-50); /* Cambiado a un tono intermedio para hover */
+	--color-black: #252123;
+}
+

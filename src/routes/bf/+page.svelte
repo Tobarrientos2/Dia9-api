@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { bfReadable, bfUnsubscribe } from '../../stores/bfStore.js';
+	import { bfReadable } from '../../stores/bfStore.js';
 
     export let data;
     
@@ -10,7 +10,6 @@
     bfReadable.subscribe((item) => {
         bf = item;
     })
-    bfUnsubscribe();
 
     let bf_co = bf.bf_co.map(item => item);
     

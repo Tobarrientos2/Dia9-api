@@ -1,5 +1,5 @@
 import type { PageLoad } from "../$types";
-import { exReadable, exUnsubscribe} from "../../../stores/exStore";
+import { exReadable} from "../../../stores/exStore";
 
 export const load: PageLoad =  ({ params, url }) =>{
 

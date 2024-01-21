@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { exReadable } from '../stores/exStore.js';
-	import { sc_lc1_1Readable,sc_lc2_1Readable } from '../stores/scStore.js';
+	import { scReadable } from '../stores/scStore.js';
 	import { tmReadable } from '../stores/tmStore.js';
 
 	
@@ -26,7 +26,7 @@
 	  }
 	}
 	let sc_dt;
-	let get = sc_lc1_1Readable.subscribe((item) => sc_dt = item.sc_lc1_1);
+	let get = scReadable.subscribe((item) => sc_dt = item.scReadable);
 
 	let noticias;
 	  </script>

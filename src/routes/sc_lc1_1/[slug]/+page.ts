@@ -1,5 +1,5 @@
 import type { PageLoad } from './$types';
-import { sc_lc1_1Readable, sc_lc1_1Unsubscribe } from '../../../stores/scStore.js';
+import { scReadable } from '../../../stores/scStore.js';
 
 // Función para obtener objetos aleatorios sin repetición
 function obtenerObjetosAleatorios(arr, q) {
@@ -28,10 +28,9 @@ function obtenerObjetosAleatorios(arr, q) {
 let sc_lc1_1;
 
 export const load: PageLoad = ({ params, url }) => {
-  const sc_lc1_1Find = sc_lc1_1Readable.subscribe((data) => {
+  const sc_lc1_1Find = scReadable.subscribe((data) => {
     sc_lc1_1 = data;
   });
-  sc_lc1_1Unsubscribe();
 
 
   let sc_lc1_1Item_slug = "/chile/" + params.slug;

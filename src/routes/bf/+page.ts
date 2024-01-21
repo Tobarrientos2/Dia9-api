@@ -1,5 +1,5 @@
 import type { PageLoad } from "../$types";
-import { exReadable, exUnsubscribe} from "../../stores/exStore";
+import { exReadable} from "../../stores/exStore";
 
 // Función para obtener objetos aleatorios sin repetición
 function obtenerObjetosAleatorios(arr: Array<object>, q:number) {
@@ -48,7 +48,6 @@ export const load: PageLoad =  ({ params, url }) =>{
 
     ex = item;
     });
-    exUnsubscribe();
 
 
 

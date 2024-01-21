@@ -1,8 +1,6 @@
 <script lang="ts">
-    import { tmReadable, unsubscribeEquipo } from '../../stores/tmStore.js';
+    import { tmReadable } from '../../stores/tmStore.js';
 
-    export let data;
 
-    unsubscribeEquipo();
 
 </script>

@@ -1,0 +1,1 @@
+<span class="font-sans text-base font-normal text-gray-400">© 2023. All rights reserved.</span>

@@ -1,43 +1,11 @@
-{
-  "tm1": "",
-  "tm2": "",
-  "tm3": "",
-  "tm_mb": [
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": "" 
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    }
-  ]
+{   
+  "tm1": "Pymechek",   
+  "tm2": "[No proporcionado]",   
+  "tm3": "Pymechek es una empresa especializada en la creación y gestión de sitios web autónomos, con experiencia en trabajar con varios clientes y en el desarrollo de un gestor de contenido propio. Los servicios de Pymechek incluyen el alojamiento en servidores propia web 3.0, interacción directa con profesionales y un servicio de contactos con desarrolladores. Su principal enfoque es proporcionar a los clientes total autonomía y control sobre sus sitios web y datos, con el beneficio añadido de un costo simbólico de hosting y una interacción segura con desarrolladores y diseñadores.",   
+  "tm_mb": {     
+    "tm_mb_img": "[Imagen no proporcionada]",     
+    "tm_mb1": "Tomás Barrientos",     
+    "tm_mb2": "Fundador y líder del equipo de desarrollo de Pymechek",     
+    "tm_mb3": "Tomás Barrientos es el fundador de Pymechek y el líder del equipo de desarrollo. Bajo su liderazgo, el equipo ha desarrollado varios sitios web autónomos, trabajado con diversos clientes e implementado nuevas funcionalidades. Tomás y su equipo se esfuerzan por ofrecer a los clientes una total autonomía y control, proporcionando una serie de servicios que incluyen el alojamiento en servidores web 3.0, interacción directa con profesionales y un servicio de contactos con desarrolladores."   
+ } 
 }

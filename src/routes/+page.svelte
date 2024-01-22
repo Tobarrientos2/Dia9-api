@@ -3,8 +3,14 @@
 	import { exReadable } from '../stores/exStore.js';
 	import { scReadable } from '../stores/scStore.js';
 	import { tmReadable } from '../stores/tmStore.js';
+	import Container2 from "../components/Containers/Container2.svelte";
+  	import Container4 from "../components/Containers/Container4.svelte";
+	import { getService } from "../stores/scStore";
 
-	
+	let pABFirstService = getService().iABServices_arr[0];
+	let pABTitleOfService;
+   	let pABDescriptionOfService;
+   	let pABImageOfService;
 	// Initialize function 'limitarPalabras' with two parameters (subject-chain: atribute).
 		//This function makes some description to size well on divs.
 	//@param 'cadena': subject
@@ -30,4 +36,4 @@
 
 	let noticias;
 	  </script>
-	  
+	  <Container2  />

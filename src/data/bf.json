@@ -1,47 +1,12 @@
 {
   "bf": {
-    "bf_1": "",
-    "bf_2": "",
-    "bf_3": "",
-    "bf_dt": [
-      { "bf_dt_img": "",
-        "bf_dt_1": "",
-        "bf_dt_2": ""
-      },
-      {"bf_dt_img": "",
-        "bf_dt_1": "",
-        "bf_dt_2": ""
-      },
-      {"bf_dt_img": "",
-        "bf_dt_1": "",
-        "bf_dt_2": ""
-      },
-      {"bf_dt_img": "",
-        "bf_dt_1": "",
-        "bf_dt_2": ""
-      },
-      {"bf_dt_img": "",
-        "bf_dt_1": "",
-        "bf_dt_2": ""
-      },
-      {"bf_dt_img": "",
-        "bf_dt_1": "",
-        "bf_dt_2": ""
-      }
-    ],
-    "bf_co": [
-      {
-        "bf_co1": "",
-        "bf_co2": ""
-      },
-      {
-        "bf_co1": "",
-        "bf_co2": ""
-      },
-      {
-        "bf_co1": "",
-        "bf_co2": ""
-      }
-    ]
+    "bf_1": "Los clientes de Pymechek pueden gestionar sus sitios web de manera autónoma, sin depender de servicios externos.",
+    "bf_2": "Los clientes mantienen control total sobre su sitio web, su hospedaje, su dominio y sus datos. Además, el costo del hosting es muy accesible, de solo un euro o un dólar al año.",
+    "bf_3": "Pymechek ofrece una interacción segura con desarrolladores y diseñadores, permitiendo a los propietarios de sitios web contratar servicios de profesionales directamente desde su espacio digital.",
+    "bf_dt": {
+      "bf_dt_img": "Imagen representativa de Pymechek o su servicio web.",
+      "bf_dt_1": "Beneficios de los Servicios de Pymechek",
+      "bf_dt_2": "Pymechek ofrece servicios web que proporcionan a los clientes autonomía y control total sobre sus sitios web, con la posibilidad de interactuar de forma segura con desarrolladores y diseñadores, lo que resulta en un costo de alojamiento simbólico y una gestión autónoma del sitio."
+    }
   }
 }

@@ -1,197 +1,55 @@
 {
-  "sc_lc1": {
-    "sc_lc1_1": [
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-      },
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      },
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      },
-      {"sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      },
-      {"sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      },
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      }
-                        
-            
-    ]
-  },
-  "sc_lc2": {
-    "sc_lc2_1": [
-      {"sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-      },
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]        
-      },
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      },
-      { "sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      },
-      {"sc_img": "",
-        "sc_slug": "",
-        "sc_1": "",
-        "sc_2": "",
-        "sc_3": "",
-        "sc_dt": [
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          },
-          {
-            "sc_dt1": "",
-            "sc_dt2": ""
-          }
-        ]
-        
-      }
-                        
-    ]
-  }
+  "sc": [
+    {
+      "sc_img": "",
+      "sc_slug": "pymechek",
+      "sc_1": "Sitios Web Autónomos",
+      "sc_2": "Creación de sitios web autónomos que los clientes pueden gestionar. Facilita que los clientes incorporen funcionalidades que consideren importantes para sus negocios.",
+      "sc_3": "Desarrollo de sitios web autónomos",
+      "sc_dt": [
+        "Gestión autónoma por parte de los clientes",
+        "Incorporación de funcionalidades según las necesidades del cliente"
+      ]
+    },
+    {
+      "sc_img": "",
+      "sc_slug": "pymechek",
+      "sc_1": "Alojamiento en Servidores Propios en La Web 3.0",
+      "sc_2": "Ofrece alojamiento de sitios web en servidores propios de los clientes, permitiendo un acceso simple desde cualquier dispositivo.",
+      "sc_3": "Alojamiento de sitios web en servidores propios",
+      "sc_dt": [
+        "Acceso simple desde cualquier dispositivo"
+      ]
+    },
+    {
+      "sc_img": "",
+      "sc_slug": "pymechek",
+      "sc_1": "Gestor de Contenido Propio",
+      "sc_2": "La empresa ha desarrollado su propio gestor de contenidos que permite a los clientes realizar cambios en sus sitios web de manera sencilla.",
+      "sc_3": "Gestor de contenidos propio",
+      "sc_dt": [
+        "Permite realizar cambios sencillos en los sitios web"
+      ]
+    },
+    {
+      "sc_img": "",
+      "sc_slug": "pymechek",
+      "sc_1": "Interacción Directa con Profesionales",
+      "sc_2": "A través de un chat en su gestor de contenidos, los clientes pueden interactuar con diseñadores, editores de video y otros profesionales.",
+      "sc_3": "Interacción directa con profesionales a través de chat",
+      "sc_dt": [
+        "Interacción con diseñadores, editores de video y otros profesionales"
+      ]
+    },
+     {
+      "sc_img": "",
+      "sc_slug": "pymechek",
+      "sc_1": "Servicio de Puestos de Contacto con Desarrolladores",
+      "sc_2": "Para aquellos que prefieran no realizar cambios por sí mismos, Pymechek ofrece un servicio que permite contactar a desarrolladores verificados.",
+      "sc_3": "Servicio de contacto con desarrolladores",
+      "sc_dt": [
+        "Contacto con desarrolladores verificados"
+      ]
+    }]
+
 }

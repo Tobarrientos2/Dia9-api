@@ -1,6 +1,6 @@
 import { getService } from "../stores/scStore"
 
-let service = getService().pABLightDescription;
+let service = getService().pABFirstService;
 console.log(service)
 
 export async function POST(event){

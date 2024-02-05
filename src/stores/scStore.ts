@@ -14,13 +14,9 @@ export function getService(){
         iABServices_arr = data;
     });
     let pABFirstService = iABServices_arr[0];
-    let pABTitle = pABFirstService.sc_1;
-    let pABLightDescription = pABFirstService.sc_2;
-    let pABExtenseDescription = pABFirstService.sc_3;
+   
 
     return {
-        pABTitle,
-        pABLightDescription,
-        pABExtenseDescription
+        pABFirstService
     } 
 }; 

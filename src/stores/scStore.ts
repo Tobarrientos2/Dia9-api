@@ -13,10 +13,12 @@ export function getService(){
     let pABServices_arr = scReadable.subscribe((data) => {
         iABServices_arr = data;
     });
-    let pABFirstService = iABServices_arr[0];
-   
+    let pABId_obj = iABServices_arr[0];
+    let pABData_obj = iABServices_arr[1];
 
     return {
-        pABFirstService
+        iABServices_obj: iABServices_arr,
+        pABId_obj,
+        pABData_obj
     } 
 }; 

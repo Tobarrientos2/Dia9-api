@@ -1,43 +1,24 @@
-{
-  "tm1": "",
-  "tm2": "",
-  "tm3": "",
-  "tm_mb": [
-    {
+[
+  {"id": 3}, {
+    "tm1": "Summacademy",
+    "tm2": "Equipo Dedicado a la Calidad Educativa",
+    "tm3": "Comprometidos con la mejora del aprendizaje universitario",
+    "tm_mb": {
       "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": "" 
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
-    },
-    {
-      "tm_mb_img": "",
-      "tm_mb1": "",
-      "tm_mb2": "",
-      "tm_mb3": ""
+      "tm_mb1": "Bastián González",
+      "tm_mb2": "Co-fundador de Summacademy y estudiante de Ingeniería Comercial con Beca de Honor en la Universidad Adolfo Ibañez",
+      "tm_mb3": "Apasionado por la educación y el desarrollo de soluciones innovadoras para estudiantes"
     }
-  ]
-}
+  },
+  {
+    "tm1": "Summacademy",
+    "tm2": "Equipo Dedicado a la Calidad Educativa",
+    "tm3": "Comprometidos con la mejora del aprendizaje universitario",
+    "tm_mb": {
+      "tm_mb_img": "",
+      "tm_mb1": "Nicolás Solari",
+      "tm_mb2": "Co-fundador de Summacademy y estudiante de Ingeniería Comercial con Beca de Honor en la Universidad Adolfo Ibañez",
+      "tm_mb3": "Enfocado en aportar valor a la experiencia educativa de los estudiantes universitarios"
+    }
+  }
+]

@@ -5,7 +5,7 @@ let service = getService().pABFirstService;
 console.log(service)
 
 export const GET = () => {
-    return new Response(JSON.stringify({message: 'Hola'}), {status: 200})
+    return new Response(JSON.stringify({message: ['Resumen', 'Core','Descartes']}), {status: 200})
 }; 
 
 export const POST = async ({request}) => {

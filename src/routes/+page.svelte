@@ -4,7 +4,18 @@
 	import { scReadable } from '../stores/scStore.js';
 	import { tmReadable } from '../stores/tmStore.js';
 
+
+	async function subscribe(event: Event){
+		   const form = event.target as HTMLFormElement
+		   const data = new FormData(form)
+		await fetch('/api',{
+			method:'POST',
+			body: data
+		})
+		console.log('Enviado')
+	}; 
 	
+
 	// Initialize function 'limitarPalabras' with two parameters (subject-chain: atribute).
 		//This function makes some description to size well on divs.
 	//@param 'cadena': subject
@@ -31,3 +42,7 @@
 	let noticias;
 	  </script>
 	  
+	  <form on:submit|preventDefault={subscribe}>
+		<input type="email" name="email" />
+		<button>Subscribe</button>
+	  </form>

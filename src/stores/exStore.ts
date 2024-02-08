@@ -1,25 +1,24 @@
 import { readable } from "svelte/store";
-import ex from "../data/ex.json"
+import C from "../data/ex.json"
 
 
 //Crear Readable
 export const exReadable = readable({}, (set) => {
-    set(ex.ex);
+    set(C.ex);
 });
 
 
-export function getExperiences(){
-    let iACExperiences_arr;
+export function void_mCGet_arr_obj(){
+    let iC_arr;
 
-    let iACExperiences = exReadable.subscribe((data) => {
-        iACExperiences_arr =  data;
+    let iC = exReadable.subscribe((data) => {
+        iC_arr =  data;
     });
-    let pACFirstExperience_obj = iACExperiences_arr[0];
-    let pACTitle_txt = pACFirstExperience_obj.ex_1;
-    let pACDLightDescription_txt = pACFirstExperience_obj.ex_2;
+    let pCFirst_obj = iC_arr[0];
+    let pC_txt = pCFirst_obj.ex_1;
+    let pCLightDescription_txt = pCFirst_obj.ex_2;
     return {
-        pACFirstExperience_obj
-
+        iC_arr
 } 
 };
 

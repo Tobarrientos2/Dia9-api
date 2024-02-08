@@ -1,34 +1,28 @@
 import { readable } from "svelte/store";
-import equipo from "../data/tm.json"
+import B from "../data/tm.json"
 
-
-
-//Obtener Servicios desde el JSON
-const data = equipo || {};
 
 //Crear readable
 export const tmReadable = readable({}, (set) => {
-    set(data)
+    set(B.tm)
 });
 
 export const unsubscribeEquipo = tmReadable.subscribe(() => {
-} );
+});
 
 
-export function getFirstMember(){
-    let iAAMembers_obj;
-	let pAAMembers_void = tmReadable.subscribe((data) => {
-		iAAMembers_obj = data;
+export function void_mBGet_arr_obj(){
+    let iB_arr;
+	let pB_void = tmReadable.subscribe((data) => {
+		iB_arr = data;
 	});
 
-	let pAATeamName_txt = iAAMembers_obj.tm1;
-	let pAATeamLightDescription_txt = iAAMembers_obj.tm2;
-	let pAATeamExtenseDescription_txt = iAAMembers_obj.tm3;
-
-	let pAAMembersByOrder_arr = iAAMembers_obj.tm_mb;
-	let pAAFirstMember = pAAMembersByOrder_arr[0];
+	let pBTeamName_txt = iB_arr.tm1;
+	let pBTeamLightDescription_txt = iB_arr.tm2;
+	let pBTeamExtenseDescription_txt = iB_arr.tm3;
+	let pBByOrder_arr = iB_arr.tm_mb;
 
     return {
-        pAAFirstMember
+        iB_arr
     } 
 }; 

@@ -1,5 +1,6 @@
-[
-  {"id": 1},{
+{
+  "sc": [
+    {
         "sc_img": "",
         "sc_slug": "",
         "sc_1": "Core Ciencias",
@@ -214,4 +215,10 @@
             }
           ]
         }
+],
+  "x_sc": [
+  "Resumenes",
+  "Ver resumenes",
+  "Nuestros Resumenes"
 ]
+}

@@ -1,19 +1,22 @@
-import { getService } from "../../stores/scStore"
-import { getX } from "../../stores/xStore";
+import { void_mAGet_arr_obj } from "../../stores/scStore"
+import { void_mBGet_arr_obj } from "../../stores/tmStore";
+import { void_mCGet_arr_obj } from "../../stores/exStore";
+import { void_mDGet_arr_obj } from "../../stores/bfStore";
 
-let pXButtons_arr = getX().pXButtons_arr;
+const iA_arr = void_mAGet_arr_obj().iA_arr;
+const iB_arr = void_mBGet_arr_obj().iB_arr;
+const iC_arr = void_mCGet_arr_obj().iC_arr;
+const iD_arr = void_mDGet_arr_obj().iD_arr;
 
-let iABServices_obj = getService().iABServices_obj;
-let pABData_obj = getService().pABData_obj
-let pABId_obj = getService().pABId_obj;
+
+
 
 export const GET = () => {
-    return new Response(JSON.stringify({pXButtons_arr: pXButtons_arr ,iABServices_arr:iABServices_obj}), {status: 200})
+    return new Response(JSON.stringify({A:iA_arr, B:iB_arr,C:iC_arr, D:iD_arr}), {status: 200})
 }; 
 
 export const POST = async ({request}) => {
     const body =  await request.json();
-    console.log(body);
 
     return new Response(JSON.stringify({message: 'Success'}), {status: 201});
 }

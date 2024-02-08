@@ -1,5 +1,5 @@
-[
-  {"id": 4},{
+{
+  "ex":[{
       "ex_img": "",
       "ex_slug": "experiencia-estudiantes-ingenieria-comercial-becarios-honor",
       "ex_url": "",
@@ -14,5 +14,8 @@
         "ex_dt_5": "Conexión con el Mercado Objetivo",
         "ex_dt_6": "Foco en alumnos de la Universidad Adolfo Ibañez de Pregrado, de las ciudades de Viña del Mar y Santiago, abarcando diversas carreras universitarias."
       }
-    }
-]
+    }],
+    "x_ex": [ "Experiencias",
+    "Ver experiencias",
+    "Nuestras Experiencias"]
+  }

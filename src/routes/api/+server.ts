@@ -1,18 +1,18 @@
-import { void_mAGet_arr_obj } from "../../stores/scStore"
-import { void_mBGet_arr_obj } from "../../stores/tmStore";
-import { void_mCGet_arr_obj } from "../../stores/exStore";
-import { void_mDGet_arr_obj } from "../../stores/bfStore";
+import { mAGet } from "../../stores/AStore"
+import { mBGet } from "../../stores/BStore";
+import { mCGet } from "../../stores/CStore";
+import { mDGet } from "../../stores/DStore";
 
-const iA_arr = void_mAGet_arr_obj().iA_arr;
-const iB_arr = void_mBGet_arr_obj().iB_arr;
-const iC_arr = void_mCGet_arr_obj().iC_arr;
-const iD_arr = void_mDGet_arr_obj().iD_arr;
+const arr_oA = mAGet().arr_obj_o1;
+const arr_oB = mBGet().arr_obj_o1;
+const arr_oC = mCGet().arr_obj_o1;
+const arr_oD = mDGet().arr_obj_o1;
 
 
 
 
 export const GET = () => {
-    return new Response(JSON.stringify({A:iA_arr, B:iB_arr,C:iC_arr, D:iD_arr}), {status: 200})
+    return new Response(JSON.stringify({A:arr_oA, B:arr_oB,C:arr_oC, D:arr_oD}), {status: 200})
 }; 
 
 export const POST = async ({request}) => {

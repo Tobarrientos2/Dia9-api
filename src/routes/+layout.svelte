@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>{$page.data.page.path || "Inicio"} | </title>
+	<title>{"Inicio"} | </title>
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 
 </svelte:head>

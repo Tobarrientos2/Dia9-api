@@ -1,0 +1,224 @@
+{
+  "A": [
+    {
+        "v_img_1": "",
+        "v_src_1": "",
+        "v_txt_1": "Core Ciencias",
+        "v_txt_2": "Incluye pruebas y exámenes de ciencias, con precios desde 6,000 a 15,000. Detalla los contenidos de cada prueba o examen.",
+        "v_txt_3": "Pruebas y exámenes de ciencias detallados",
+        "arr_1": [
+          {
+            "v_num_1": 6000,
+            "v_txt_1": "Core Ciencias Prueba 1",
+            "v_txt_2": "Una prueba exhaustiva que abarca conceptos fundamentales de las ciencias."
+          },
+          {
+            "v_num_1": 8000,
+            "v_txt_1": "Core Ciencias Prueba 2",
+            "v_txt_2": "Prueba avanzada con preguntas desafiantes para evaluar el conocimiento profundo en ciencias."
+          },
+          {
+            "arr_1": 15000,
+            "v_txt_1": "Core Ciencias Examen",
+            "v_txt_2": "Examen comprensivo que cubre una amplia gama de temas científicos, diseñado para poner a prueba la comprensión y retención de los estudiantes."
+          }
+        ]
+      }
+    ,{
+        "v_img_1": "",
+        "v_src_1": "",
+        "v_txt_1": "Core Literatura y Humanidades",
+        "v_txt_2": "Cubre obras clave de la literatura y humanidades con precios generalmente alrededor de 6,000.",
+        "v_txt_3": "Exploración profunda de la literatura y humanidades",
+        "sc_dt": [
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Homero 'La Odisea'",
+            "v_txt_2": "Un viaje épico de regreso a casa lleno de aventuras y desafíos mitológicos."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Sóflocles 'Antígona'",
+            "v_txt_2": "Una tragedia sobre el poder, la familia y la ley, explorando los límites de la moral y la justicia."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Ovidio 'Metamorfosis'",
+            "v_txt_2": "Colección de mitos poéticos que narran la creación y la historia del mundo a través de transformaciones."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Dante 'Divina Comedia'",
+            "v_txt_2": "Un viaje alegórico a través del Infierno, el Purgatorio y el Paraíso, explorando temas de la vida después de la muerte y la redención."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Boccaccio 'Decamerón'",
+            "v_txt_2": "Conjunto de cuentos ingeniosos y moralizantes narrados por un grupo de jóvenes refugiados en el campo durante la peste negra."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Montaigne 'Ensayos'",
+            "v_txt_2": "Reflexiones profundas y personales sobre la vida, la educación, la amistad, la literatura y la filosofía."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Shakespeare 'Hamlet'",
+            "v_txt_2": "La trágica historia de Hamlet, príncipe de Dinamarca, y su búsqueda de venganza contra su tío usurpador."
+          }
+        ]
+      },
+     {
+        "v_img_1": "",
+        "v_src_1": "",
+        "v_txt_1": "Core Civilización Contemporánea",
+        "v_txt_2": "Ofrece productos relacionados con filósofos y obras desde la antigüedad hasta la época contemporánea, con precios alrededor de 6,000.",
+        "v_txt_3": "Perspectiva completa desde la antigüedad hasta la contemporaneidad",
+        "sc_dt": [
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Platón 'La República'",
+            "v_txt_2": "Exploración fundamental sobre justicia, orden ideal del estado y el individuo."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Aristóteles 'Ética a Nicómaco'",
+            "v_txt_2": "Una obra maestra sobre la ética y la felicidad, fundamentando la virtud como el medio para alcanzar el bien supremo."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Aristóteles 'Política'",
+            "v_txt_2": "Análisis detallado sobre los sistemas de gobierno y la estructura ideal de una ciudad-estado."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Epicuro 'Carta a Meneceo y selección de Máximas capitales y Sentencias vaticanas' Epicteto 'Manual'",
+            "v_txt_2": "Guías esenciales para una vida plena, centradas en el placer, la ética y la fortaleza personal."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Agustín (Santo, Obispo de Hipona) 'El libre albedrío'",
+            "v_txt_2": "Discusión profunda sobre la naturaleza del bien, el mal y la libertad humana."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Tomás de Aquino 'Suma de Teología'",
+            "v_txt_2": "Exposición completa de la doctrina cristiana, fusionando fe y razón."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Maquiavelo 'El príncipe'",
+            "v_txt_2": "Manual sobre el poder político y la adquisición y mantenimiento del mismo."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Descartes 'Discurso del método'",
+            "v_txt_2": "Fundamento del pensamiento moderno y la importancia del método científico."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Hobbes 'Leviatán'",
+            "v_txt_2": "Obra sobre la estructura de la sociedad y el gobierno legítimo."
+          },
+          {
+            "arr_1": 6000,
+            "v_txt_1": "Locke 'Segundo tratado Sobre el Gobierno Civil'",
+            "v_txt_2": "Ensayo influyente que defiende la soberanía del pueblo y los principios del gobierno democrático."
+          }
+        ]
+      },
+  {
+          "v_img_1": "",
+          "v_src_1": "",
+          "v_txt_1": "Core Ética",
+          "v_txt_2": "Explora los fundamentos éticos y morales a través de obras filosóficas clásicas y contemporáneas, con precios alrededor de 6,000.",
+          "v_txt_3": "Fundamentos éticos y filosofía moral",
+          "sc_dt": [
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Tomas de Aquino 'Suma Teológica'",
+              "v_txt_2": "Obra esencial que combina teología cristiana con filosofía aristotélica para explorar cuestiones de fe y razón."
+            },
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Bentham 'Deontología'",
+              "v_txt_2": "Introduce el concepto de utilitarismo, evaluando las acciones según su contribución a la felicidad general."
+            },
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Mill 'El Utilitarismo'",
+              "v_txt_2": "Extiende y profundiza los principios utilitaristas de Bentham, enfatizando la calidad de los placeres."
+            },
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Kant 'Fundamentación para una metafísica de las costumbres'",
+              "v_txt_2": "Define la moralidad a través del imperativo categórico, argumentando que las acciones deben ser universales."
+            },
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Bentham 'Los principios de la moral y la legislación'",
+              "v_txt_2": "Obra que detalla la teoría utilitarista, analizando cómo las leyes pueden promover la felicidad."
+            },
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Kant 'La metafísica de las costumbres'",
+              "v_txt_2": "Examina los principios de la ética y la moral, distinguiendo entre la moralidad y la legalidad de las acciones."
+            },
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Aristóteles 'Ética a Nicómaco'",
+              "v_txt_2": "Una de las principales obras filosóficas sobre ética, que investiga la idea de la felicidad como fin último de la vida humana."
+            }
+          ]
+        },
+         {
+          "v_img_1": "",
+          "v_src_1": "",
+          "v_txt_1": "Ing. Comercial",
+          "v_txt_2": "Incluye resúmenes específicos para la carrera de Ingeniería Comercial, con precios alrededor de 6,000.",
+          "v_txt_3": "Material esencial para estudiantes de Ingeniería Comercial",
+          "sc_dt": [
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Sociedad, Cultura, Política Prueba 1",
+              "v_txt_2": "Evaluación centrada en los aspectos sociales, culturales y políticos relevantes para la formación en Ingeniería Comercial."
+            },
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Sociedad, Cultura, Política Prueba 2",
+              "v_txt_2": "Continuación de la evaluación de conocimientos en sociedad, cultura y política, con enfoque en casos prácticos."
+            },
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Sociedad, Cultura, Política Prueba 3",
+              "v_txt_2": "Examen avanzado que desafía la comprensión del estudiante sobre temas de actualidad en sociedad, cultura y política."
+            },
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Sociedad, Cultura, Política Examen",
+              "v_txt_2": "Examen comprensivo que abarca todos los temas clave de la materia, enfocado en análisis crítico y solución de problemas."
+            },
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Derecho e Institucionalidad Prueba 1",
+              "v_txt_2": "Prueba que examina los fundamentos del derecho y la estructura institucional, esencial para el futuro profesional en Ingeniería Comercial."
+            },
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Derecho e Institucionalidad Prueba 2",
+              "v_txt_2": "Segunda parte de la evaluación sobre derecho e institucionalidad, con preguntas de mayor complejidad."
+            },
+            {
+              "arr_1": 6000,
+              "v_txt_1": "Derecho e Institucionalidad Examen",
+              "v_txt_2": "Examen final que cubre de manera exhaustiva los principios y aplicaciones del derecho en el contexto de la ingeniería comercial."
+            }
+          ]
+        }
+],
+  "xA": [
+  "Resumenes",
+  "Ver resumenes",
+  "Nuestros Resumenes"
+]
+}

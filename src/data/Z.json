@@ -1,0 +1,8 @@
+{
+    "C": [
+        {
+            "v_txt_1": "<script lang=\"ts\">\n    export let v_src_1;\n</script>",
+            "v_txt_2": "<div class=\"section-rebrand padding-mobile-64\"><div class=\"container-rebrand-2 center\"><div class=\"home-logos-wrapper\"><img src={v_src_1} loading=\"lazy\" id=\"w-node-_7e2ac3e0-eae8-de91-94e8-ea5151fd3350-5875fff3\" alt=\"urban list logo\" class=\"home-news-logo\"/></div></div></div>"
+        }
+    ]
+}

@@ -33,6 +33,8 @@ export const GET = async ({url, params}) => {
         case 'D':
             txt_o = arr_obj_oD;
             break;
+        case 'Z':
+            txt_o = arr_obj_oZ;
         default:
         }
         }  

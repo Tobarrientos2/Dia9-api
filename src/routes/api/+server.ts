@@ -1,21 +1,45 @@
+import { error } from "@sveltejs/kit";
 import { mAGet } from "../../stores/AStore"
 import { mBGet } from "../../stores/BStore";
 import { mCGet } from "../../stores/CStore";
 import { mDGet } from "../../stores/DStore";
 import { mZGet } from "../../stores/ZStore";
 
-const arr_oA = mAGet().arr_obj_o1;
-const arr_oB = mBGet().arr_obj_o1;
-const arr_oC = mCGet().arr_obj_o1;
-const arr_oD = mDGet().arr_obj_o1;
-const arr_oZ = mZGet().arr_obj_o1;
+
+const arr_obj_oA = mAGet().arr_obj_o1;
+const arr_obj_oB = mBGet().arr_obj_o1;
+const arr_obj_oC = mCGet().arr_obj_o1;
+const arr_obj_oD = mDGet().arr_obj_o1;
+const arr_obj_oZ = mZGet().arr_obj_o1;
 
 
+export const GET = async ({url, params}) => {
+    let txt_p = url.searchParams.get('check');
+    let txt_o;
 
-export const GET = () => {
-    return new Response(JSON.stringify({A:arr_oA, B:arr_oB,C:arr_oC, D:arr_oD, Z: arr_oZ}), {status: 200})
+    if(txt_p){
+        let txt_p2 = txt_p.split('');
+        for(const e of txt_p2){
+    switch (e) {
+        case 'A':
+            txt_o = arr_obj_oA;
+            break;
+        case 'B':
+            txt_o = arr_obj_oB;
+            break;
+        case 'C':
+            txt_o = arr_obj_oC;
+            break;
+        case 'D':
+            txt_o = arr_obj_oD;
+            break;
+        default:
+        }
+        }  
+    } 
+
+    return new Response(JSON.stringify({ [txt_p]: txt_o }), {status: 200})
 }; 
-
 export const POST = async ({request}) => {
     const body =  await request.json();
 

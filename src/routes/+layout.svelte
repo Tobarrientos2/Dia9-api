@@ -4,6 +4,7 @@
 	import "./styles.css";
 	import { page } from "$app/stores";
 	
+
 </script>
 
 <svelte:head>

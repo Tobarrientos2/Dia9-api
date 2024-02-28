@@ -3,7 +3,7 @@ import Z  from "../data/Z.json"
 
 //Crear Readable
 export const DReadable = readable({}, (set) => {
-    set(Z.C)
+    set(Z.Z)
 });
 
 let arr_obj_o1;

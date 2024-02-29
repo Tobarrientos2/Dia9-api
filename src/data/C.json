@@ -23,8 +23,12 @@
     }
   ],
   "xC": [
-    "Experiencias",
-    "Ver experiencias",
-    "Nuestras Experiencias"
+    {
+      "xC": [
+        "Experiencias",
+        "Ver experiencias",
+        "Nuestras Experiencias"
+      ]
+    }
   ]
 }

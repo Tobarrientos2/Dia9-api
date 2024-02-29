@@ -4,5 +4,16 @@
             "v_txt_1": "+56 9 2396 6942"
         }
     ],
-    "xE": ["Contacto", "Contáctanos", "Nuestro", "Teléfono", "Dirección", "Correo"]
+    "xE": [
+        {
+            "xE": [
+                "Contacto",
+                "Contáctanos",
+                "Nuestro",
+                "Teléfono",
+                "Dirección",
+                "Correo"
+            ]
+        }
+    ]
 }

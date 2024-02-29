@@ -46,7 +46,13 @@
       "v_src_1": "experiencia-de-aprendizaje-enriquecida"
     }
   ],
-  "xD": [  "Beneficios",
-  "Ver beneficios",
-  "Nuestros Beneficios"]
+  "xD": [
+    {
+      "xD": [
+        "Beneficios",
+        "Ver beneficios",
+        "Nuestros Beneficios"
+      ]
+    }
+  ]
 }

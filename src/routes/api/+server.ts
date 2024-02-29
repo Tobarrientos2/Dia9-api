@@ -16,9 +16,6 @@ import { error } from "@sveltejs/kit";
 //     //Obtener la letra de un metodo. ej: mAGet() -> A
 // } 
 
-
-
-
 function mValidate_URLSearchParams(txt_i: URL, txt_i2: string){
     let txt_o;
     let txt_p = txt_i.searchParams.get(txt_i2);
